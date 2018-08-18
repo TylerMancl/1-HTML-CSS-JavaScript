@@ -13,7 +13,7 @@
         <fieldset>
             <legend>Your General Details</legend>
             <label>Name:</label> <input type="text" required><br>
-            <label>Gender:</label> Male <input type="radio" required> Female <input type="radio" required><br>
+            <label>Gender:</label> Male <input class="radio_allign" type="radio" required> Female <input class="radio_allign" type="radio" required><br>
             <label>Age:</label> <input type="number" required><br>
             <label>Date of birth:</label> <input type="date"><br>
             <label>Favorite color:</label> <input type="color"><br>
@@ -29,19 +29,19 @@
         </fieldset>
         <fieldset>
                 <legend>Your Indicators</legend>
-                <label>Height:</label> Short <input type="range" min="0" max="100"> Tall<br>
-                Salary: Poor <input type="range" min="0" max="100"> Rich
+                <label>Height:</label> <label class="red">Short</label> <input type="range" min="0" max="100"> <label class="purple">Tall</label><br>
+                <label>Salary:</label> <label class="red">Poor</label> <input type="range" min="0" max="100"> <label class="purple">Rich</label>
                 </fieldset>
                 <fieldset>
                         <legend>Your Contact Information</legend>
-                        <p>Email: <input type="email" required></p>
-                        <p>Mobile: <input type="tel"></p>
-                        <p>Address: <textarea></textarea></p>
-                        <p>Method to Contact You:
-                             <input type="checkbox">Email
-                             <input type="checkbox">Whatsapp
-                             <input type="checkbox">In-app chat
-                            </p>
+                        <label>Email:</label> <input type="email" required><br>
+                        <label>Mobile:</label> <input type="tel"><br>
+                        <label>Address:</label> <textarea cols="30"></textarea><br>
+                        <label>Method to Contact You:</label>
+                             <input class="checkbox_allign" type="checkbox">Email
+                             <input class="checkbox_allign" type="checkbox">Whatsapp
+                             <input class="checkbox_allign" type="checkbox">In-app chat
+                        
                     </fieldset>
                     <input type="Submit">
 
