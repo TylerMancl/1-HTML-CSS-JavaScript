@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Your Face</legend>
+            <label>Your image</label> <input type="file" required><br>
+            <label>Image preview</label><img id="preview">
+        </fieldset>
+        <fieldset>
+            <legend>Your General Details</legend>
+            <label>Name:</label> <input type="text" required><br>
+            <label>Gender:</label> Male <input type="radio" required> Female <input type="radio" required><br>
+            <label>Age:</label> <input type="number" required><br>
+            <label>Date of birth:</label> <input type="date"><br>
+            <label>Favorite color:</label> <input type="color"><br>
+            <label>Which country:</label>
+            <select>
+            <option>USA</option>
+            <option>Canada</option>
+            <option>Mexico</option>
+            <option>Netherlands</option>
+            <option>Ireland</option>
+            <option>No Selection</option>
+            </select>
+        </fieldset>
+        <fieldset>
+                <legend>Your Indicators</legend>
+                <label>Height:</label> Short <input type="range" min="0" max="100"> Tall<br>
+                Salary: Poor <input type="range" min="0" max="100"> Rich
+                </fieldset>
+                <fieldset>
+                        <legend>Your Contact Information</legend>
+                        <p>Email: <input type="email" required></p>
+                        <p>Mobile: <input type="tel"></p>
+                        <p>Address: <textarea></textarea></p>
+                        <p>Method to Contact You:
+                             <input type="checkbox">Email
+                             <input type="checkbox">Whatsapp
+                             <input type="checkbox">In-app chat
+                            </p>
+                    </fieldset>
+                    <input type="Submit">
+
+    </form>
+</body>
+</html>
